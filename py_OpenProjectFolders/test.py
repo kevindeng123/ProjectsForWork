@@ -1,6 +1,8 @@
-import send2trash
+import numpy as np
+import matplotlib.pyplot as plt
 
-baconFile = open('bacon.txt', 'a')
-baconFile.write('Bacon!')
-baconFile.close()
-send2trash.send2trash('bacon.txt')
+x = np.linspace(0, np.pi * 2,1000)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.show()
