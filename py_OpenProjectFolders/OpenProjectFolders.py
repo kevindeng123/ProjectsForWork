@@ -23,7 +23,11 @@ def main():
     print("Today is %s. Have a good day!" % today)
 
     #TODO: Create a list of realtive chilren path
+<<<<<<< HEAD
     path_list = ['CAD\\XREF', 'CAD\\SHEET', 'DESIGN\\EPS', 'DESIGN\\PSD', 'DESIGN\\PPT', 'ADMIN\\TABULATION', 'DESIGN\\JPEG\\Progress\\%s' % today]
+=======
+    path_list = ['CAD\\XREF', 'CAD\\SHEET', 'DESIGN\\EPS', 'DESIGN\\PSD', 'DESIGN\\PPT', 'ADMIN\\TABULATION']
+>>>>>>> 7b03b2197b11802de2ebe29656a87761d2af97b4
 
     #Function: Open folders which based on whether the folder exsits
     def open_folder(path):
