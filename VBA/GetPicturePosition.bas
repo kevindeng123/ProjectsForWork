@@ -1,4 +1,6 @@
 Attribute VB_Name = "GetPicturePosition"
+Public sw, sh, sl, st, pw, ph, px, py As Variant
+
 Sub GetPicturePosition()
 
 Set mySelection = ActiveWindow.Selection.ShapeRange.PictureFormat.Crop
