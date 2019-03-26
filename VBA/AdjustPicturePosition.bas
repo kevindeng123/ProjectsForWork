@@ -1,7 +1,9 @@
-Sub AdjustPicture()
+Attribute VB_Name = "AdjustPicturePosition"
+Sub AdjustPicturePosition()
 
 Const ScaleValue As Variant = 28.345
-Dim sw, sh, sl, st, pw, ph, px, py As Variant
+
+'Setting parameters of picture
 Let sw = 42.01
 Let sh = 27.02
 Let sl = 0
