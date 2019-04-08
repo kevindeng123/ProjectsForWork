@@ -14,8 +14,8 @@ goto comment
 @echo off
 
 ::设置项目ID、设计阶段/Set up Project ID & Design Stage
-SET Project_ID=18213
-SET Project_Stage=UA
+SET Project_ID=18212
+SET Project_Stage=UC
 SET PATH_MAIN=Q:\Project\%Project_ID%\%Project_Stage%
 
 ::获取今天日期/Get the Date of today
